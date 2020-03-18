@@ -3,7 +3,7 @@
   <div id="menu">
     <div id="brand">
       <router-link to="/">
-        <img src="/images/logo.png">
+        <img src="/images/mountain.png">
       </router-link>
     </div>
     <div id="side">
@@ -15,7 +15,7 @@
       </router-link>
       <router-link to="/cart">
         <div class="menu-item">
-          <img src="/images/globe.png">
+          <img src="/images/shopcart.png">
           <p>{{cartLength}} items</p>
         </div>
       </router-link>
