@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="all">
   <div class="wrapper">
     <div class="search">
       <form class="pure-form">
@@ -33,6 +33,7 @@ export default {
 
 <style scoped>
 .wrapper {
+  background-color: #9494b8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +41,7 @@ export default {
 
 .search {
   border: 1px solid #ccc;
+  background-color: white;
   border-radius: 4px;
   width: 50%;
 }
