@@ -67,7 +67,7 @@ export default {
 }
 
 .info {
-  background: #B33C00;
+  background: #ccffe6;
   color: #000;
   padding: 5px 15px;
   height: 60px;

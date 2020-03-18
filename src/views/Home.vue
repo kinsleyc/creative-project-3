@@ -33,7 +33,6 @@ export default {
 
 <style scoped>
 .wrapper {
-  background-color: #9494b8;
   display: flex;
   align-items: center;
   justify-content: center;

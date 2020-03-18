@@ -43,6 +43,7 @@ export default {
 
 body {
   margin: 50px 100px;
+  background-color: #9494b8;
 
 }
 
