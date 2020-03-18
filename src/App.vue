@@ -5,6 +5,7 @@
       <router-link to="/">
         <img src="/images/mountain.png">
       </router-link>
+      <h1> Summit Fitness </h1>
     </div>
     <div id="side">
       <router-link to="/browse">
