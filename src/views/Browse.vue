@@ -2,10 +2,8 @@
 <div>
   <div class="pure-menu pure-menu-horizontal">
     <ul class="pure-menu-list">
-      <li class="pure-menu-item"><a @click="select('United States')" href="#" class="pure-menu-link">United States</a></li>
-      <li class="pure-menu-item"><a @click="select('Canada')" href="#" class="pure-menu-link">Canada</a></li>
-      <li class="pure-menu-item"><a @click="select('Mexico')" href="#" class="pure-menu-link">Mexico</a></li>
-      <li class="pure-menu-item"><a @click="select('Brazil')" href="#" class="pure-menu-link">Brazil</a></li>
+      <li class="pure-menu-item"><a @click="select('supplement')" href="#" class="pure-menu-link">Supplements</a></li>
+      <li class="pure-menu-item"><a @click="select('vitamin')" href="#" class="pure-menu-link">Vitamins</a></li>
     </ul>
   </div>
   <ProductList :products="products" />
@@ -21,17 +19,17 @@ export default {
   },
   data() {
     return {
-      country: '',
+      type: '',
     }
   },
   computed: {
     products() {
-      return this.$root.$data.products.filter(product => product.country === this.country);
+      return this.$root.$data.products.filter(product => product.type === this.type);
     }
   },
   methods: {
-    select(country) {
-      this.country = country;
+    select(type) {
+      this.type = type;
     }
   },
 }

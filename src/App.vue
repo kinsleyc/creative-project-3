@@ -23,6 +23,11 @@
     </div>
   </div>
   <router-view />
+  <div class="h-divider"></div>
+  <div class="footer">
+    <p>Find Kinsley on <a href="https://github.com/kinsleyc/creative-project-3" target="_blank">Github</a></p>
+    <p>Find Ty on <a href=" " target="_blank">Github</a></p>
+  </div>
 </div>
 </template>
 
@@ -91,5 +96,28 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+
+.h-divider {
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.footer {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    text-decoration: none;
 }
 </style>
