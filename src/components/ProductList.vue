@@ -89,11 +89,12 @@ export default {
 
 .price {
   display: flex;
+  color: white;
 }
 
 button {
   height: 50px;
-  background: #000;
+  background: #737373;
   color: white;
   border: none;
 }
