@@ -67,7 +67,7 @@ export default {
 }
 
 .info {
-  background: #ccffe6;
+  background: #336699;
   color: #000;
   padding: 5px 15px;
   height: 60px;
@@ -89,12 +89,13 @@ export default {
 
 .price {
   display: flex;
+  color: white;
 }
 
 button {
   font-size: 12px;
   height: 50px;
-  background: #000;
+  background: #737373;
   color: white;
   border: none;
 }

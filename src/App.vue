@@ -49,8 +49,17 @@ export default {
 
 body {
   margin: 50px 100px;
-  background-color: #9494b8;
+  background-color: #000000;
 
+}
+
+#menu a {
+  color: white;
+  text-decoration: underline;
+}
+
+#menu a:hover {
+  text-decoration: none;
 }
 
 #menu {
@@ -61,9 +70,6 @@ body {
   margin-bottom: 50px;
 }
 
-#menu a {
-  color: #B84901;
-}
 
 #brand {
   grid-area: brand;
@@ -102,35 +108,20 @@ body {
 .h-divider {
     height: 1px;
     width: 100%;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
 
 .footer {
+    color: white;
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
 }
-#brand a {
-  color: black;
-  text-decoration: underline;
-}
-#side a {
-  color: black;
-  text-decoration: underline;
-}
-#brand a:hover {
-  color: black;
-  text-decoration: none;
-}
-#side a:hover {
-  color: black;
-  text-decoration: none;
-}
 
 .footer a {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 
