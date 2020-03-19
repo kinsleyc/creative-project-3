@@ -26,7 +26,7 @@
   <div class="h-divider"></div>
   <div class="footer">
     <p>Find Kinsley on <a href="https://github.com/kinsleyc/creative-project-3" target="_blank">Github</a></p>
-    <p>Find Ty on <a href=" " target="_blank">Github</a></p>
+    <p>Find Ty on <a href="https://github.com/kinsleyc/creative-project-3" target="_blank">Github</a></p>
   </div>
 </div>
 </template>
