@@ -23,14 +23,14 @@ let mock = [{
     id: 4,
     name: "MCT Oil",
     price: "$14.99",
-	  type: "supplement",
+	type: "supplement",
     image: 'mctoil.jpg'
   },
   {
     id: 5,
     name: "Prenatal Supplement",
     price: "$9.99",
-	  type: "supplement",
+	type: "supplement",
     image: 'prenatal.jpg'
 
   },
@@ -38,8 +38,22 @@ let mock = [{
     id: 6,
     name: "Antioxidant and Fiber Blend",
     price: "$19.99",
-	  type: "supplement",
+	type: "supplement",
     image: 'antioxidantfruitandfiber.jpg'
+  },
+  {
+    id: 7,
+	name: "Vitamin Variety Pack",
+	price: "$39.99",
+	type: "vitamin",
+	image: "vitaminvarietypack.jpg"
+  },
+  {
+    id: 8,
+	name: "Liquid Vitamin B12",
+	price: "$9.99",
+	type: "vitamin",
+	image: "vitaminb12.jpg"
   }
 ]
 

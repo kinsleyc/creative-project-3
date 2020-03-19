@@ -93,6 +93,8 @@ body {
 }
 
 .menu-item {
+  margin-top: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
