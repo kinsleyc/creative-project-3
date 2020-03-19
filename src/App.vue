@@ -3,14 +3,14 @@
   <div id="menu">
     <div id="brand">
       <router-link to="/">
-        <img src="/images/mountain.png">
+        <img src="/images/mountain-logo.png">
+        <h1> Summit Fitness </h1>
       </router-link>
-      <h1> Summit Fitness </h1>
     </div>
     <div id="side">
       <router-link to="/browse">
         <div class="menu-item browse">
-          <img src="/images/globe.png">
+          <img src="/images/browse.png">
           <p>Browse</p>
         </div>
       </router-link>
@@ -69,6 +69,7 @@ body {
   grid-area: brand;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 #brand img {
@@ -110,6 +111,22 @@ body {
     margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
+}
+#brand a {
+  color: black;
+  text-decoration: underline;
+}
+#side a {
+  color: black;
+  text-decoration: underline;
+}
+#brand a:hover {
+  color: black;
+  text-decoration: none;
+}
+#side a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .footer a {
